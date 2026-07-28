@@ -1,0 +1,10 @@
+{
+  "visual_qa": "pass",
+  "qa_note": "Rows 0-8 are stable, unclipped, animated, and semantically correct; repaired 112.5 reads down-right and 225 reads down-left in a cohesive 16-pose loop.",
+  "repair_rows": [],
+  "review_warnings": [
+    "Blind ambiguity on intermediate axes is accepted where labeled playback confirms the intended quadrant without reversal.",
+    "Continuity metric warnings near the up boundary are accepted because normal-size playback shows no visible snap, scale pop, registration jump, identity change, or broken silhouette.",
+    "Stable-slots warnings for preserved rows 0-8 are accepted after visual playback review."
+  ]
+}

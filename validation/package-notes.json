@@ -1,0 +1,28 @@
+{
+  "petId": "float-ghost",
+  "displayName": "Float Ghost",
+  "spriteVersionNumber": 2,
+  "atlas": {
+    "path": "pet/spritesheet.webp",
+    "format": "webp",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "sha256": "EA059552F6A980B9D9C4D02DE6C5AE4A788F0A3F18726B409BA27A5092D98848"
+  },
+  "content": {
+    "standardAnimationRows": 9,
+    "lookingDirectionRows": 2,
+    "lookingDirections": 16,
+    "directionOrder": "clockwise from 000 (up / 12 o'clock)"
+  },
+  "qa": {
+    "atlasValidation": "pass",
+    "finalVisualQa": "pass",
+    "transparentRgbResidue": 0,
+    "notes": "Intermediate direction ambiguities are documented in the validation artifacts and accepted by final labeled playback review."
+  }
+}
