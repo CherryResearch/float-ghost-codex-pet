@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "reviewed_stage": "independent final visual QA",
+  "reviewed_by": "float_ghost_final_visual_qa_repaired",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"eyes and face lifted above head center","reason":"Matches the approved up cardinal.","axes":{"horizontal":"none","vertical":"up is unmistakable"}},
+    {"direction":"022.5","verdict":"pass","expected":"up-right","observed":"lifted eyes with slight screen-right face turn","reason":"Both axes read at normal size.","axes":{"horizontal":"subtle screen-right yaw","vertical":"clear upward lift"}},
+    {"direction":"045","verdict":"pass","expected":"up-right","observed":"raised three-quarter screen-right aim","reason":"Balanced diagonal cue.","axes":{"horizontal":"clear screen-right turn","vertical":"clear upward eyes and face"}},
+    {"direction":"067.5","verdict":"pass","expected":"up-right","observed":"strong screen-right turn retaining upward cue","reason":"Advances naturally toward 090.","axes":{"horizontal":"strong screen-right aim","vertical":"upward cue remains visible"}},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"unmistakable screen-right profile","reason":"Matches the approved right cardinal.","axes":{"horizontal":"screen-right is unmistakable","vertical":"none"}},
+    {"direction":"112.5","verdict":"pass","expected":"down-right","observed":"screen-right profile with complete mint eye surfaces lowered beneath partial upper lids","reason":"Face pitch and eyelids visibly begin the downward arc without a snap.","axes":{"horizontal":"clear screen-right yaw","vertical":"lowered eye surfaces and face pitch read down"}},
+    {"direction":"135","verdict":"warning","expected":"down-right","observed":"subtle right yaw with lowered eyes, lids, and face","reason":"Blind horizontal ambiguity is accepted because labeled neighbors confirm screen-right without reversal.","axes":{"horizontal":"subtle screen-right yaw confirmed by ordered loop","vertical":"clear lowered-eye down cue"}},
+    {"direction":"157.5","verdict":"warning","expected":"down-right","observed":"near-down face with subtle right yaw","reason":"Blind horizontal ambiguity is accepted because labeled playback confirms a smooth approach to 180.","axes":{"horizontal":"subtle screen-right yaw confirmed by ordered loop","vertical":"strong down cue"}},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"down-facing eye surfaces and centered lowered face","reason":"Matches the approved down cardinal.","axes":{"horizontal":"none","vertical":"down is unmistakable"}},
+    {"direction":"202.5","verdict":"pass","expected":"down-left","observed":"down-facing eyes gain a subtle screen-left shift and yaw","reason":"Genuine first step toward 225.","axes":{"horizontal":"subtle screen-left shift","vertical":"clear down-facing eyes"}},
+    {"direction":"225","verdict":"pass","expected":"down-left","observed":"mint eyes, apertures, tentacle root, and aiming face surface sit screen-left with head back screen-right","reason":"Faces the same screen-left direction as 270 at a moderate down-left yaw.","axes":{"horizontal":"literal screen-left landmarks are clear","vertical":"moderate down pitch remains visible"}},
+    {"direction":"247.5","verdict":"warning","expected":"down-left","observed":"deeper version of the same screen-left pose","reason":"Blind vertical ambiguity is accepted because labeled playback preserves the down-left arc without reversal.","axes":{"horizontal":"strong screen-left profile cue","vertical":"subtle down cue confirmed by ordered loop"}},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"unmistakable screen-left profile","reason":"Matches the approved left cardinal.","axes":{"horizontal":"screen-left is unmistakable","vertical":"none"}},
+    {"direction":"292.5","verdict":"warning","expected":"up-left","observed":"continuous three-quarter up-left cue","reason":"Blind vertical ambiguity is accepted because labeled playback shows upward eye and face motion without reversal.","axes":{"horizontal":"clear screen-left yaw","vertical":"subtle upward cue confirmed by ordered loop"}},
+    {"direction":"315","verdict":"pass","expected":"up-left","observed":"clear up-left pose returning toward frontal","reason":"Correct quadrant and continuity.","axes":{"horizontal":"screen-left cue remains clear","vertical":"clear upward pitch"}},
+    {"direction":"337.5","verdict":"warning","expected":"up-left","observed":"shallow up-left pose one step before 000","reason":"Screen-left cue is subtle near the vertical axis; labeled ordered-loop context confirms up-left without reversal.","axes":{"horizontal":"subtle screen-left cue","vertical":"strong up cue"}}
+  ],
+  "review_warnings": [
+    "Blind intermediate ambiguity at 135 horizontal, 157.5 horizontal, 247.5 vertical, 292.5 vertical, and 337.5 horizontal is accepted because labeled playback confirms the intended axes without reversal.",
+    "Continuity metric warnings at 000 to 022.5 and 337.5 to 000, plus smaller local differences, are accepted because normal-size playback shows no conspicuous snap, scale pop, registration jump, identity change, or broken silhouette.",
+    "Stable-slots warnings for preserved rows 0-8 are accepted after every preview GIF showed stable, unclipped motion."
+  ]
+}
