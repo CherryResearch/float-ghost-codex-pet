@@ -1,28 +1,10 @@
 {
-  "petId": "float-ghost",
-  "displayName": "Float Ghost",
-  "spriteVersionNumber": 2,
-  "atlas": {
-    "path": "pet/spritesheet.webp",
-    "format": "webp",
-    "width": 1536,
-    "height": 2288,
-    "columns": 8,
-    "rows": 11,
-    "cellWidth": 192,
-    "cellHeight": 208,
-    "sha256": "EA059552F6A980B9D9C4D02DE6C5AE4A788F0A3F18726B409BA27A5092D98848"
-  },
-  "content": {
-    "standardAnimationRows": 9,
-    "lookingDirectionRows": 2,
-    "lookingDirections": 16,
-    "directionOrder": "clockwise from 000 (up / 12 o'clock)"
-  },
-  "qa": {
-    "atlasValidation": "pass",
-    "finalVisualQa": "pass",
-    "transparentRgbResidue": 0,
-    "notes": "Intermediate direction ambiguities are documented in the validation artifacts and accepted by final labeled playback review."
-  }
+  "id": "float-ghost",
+  "display_name": "Float Ghost",
+  "atlas_version": 2,
+  "source": "source/spritesheet.png",
+  "runtime": "pet/spritesheet.webp",
+  "rgba_sha256": "4a8d88717c313c0d86127a228b61bf0b58c17ac43f3a27e27a69b006d043f2b6",
+  "encoding": "Lossless WebP; decoded RGBA pixels are identical to the source PNG",
+  "compatibility": "Requires an 8-column, 11-row v2 atlas consumer; older local clients are unverified"
 }
