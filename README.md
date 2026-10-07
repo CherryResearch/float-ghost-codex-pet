@@ -38,7 +38,7 @@ mkdir -p ~/.codex/pets/float-ghost
 cp pet/pet.json pet/spritesheet.webp ~/.codex/pets/float-ghost/
 ```
 
-If Codex is already running, restart or refresh it after copying the files, then select Float Ghost in Settings → Appearance if your client exposes that option.
+After copying the files, open Settings → Pets, select Refresh, then choose Float Ghost.
 
 ## Pet contract
 
