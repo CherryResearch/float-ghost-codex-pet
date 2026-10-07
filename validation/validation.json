@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "checks": "Structure, metadata, and lossless source/runtime pixel equality",
+  "atlas_dimensions": [
+    1536,
+    2288
+  ],
+  "cell_dimensions": [
+    192,
+    208
+  ],
+  "grid": [
+    8,
+    11
+  ],
+  "required_frames": 73,
+  "transparent_unused_cells": 15,
+  "runtime_rgba_matches_source": true,
+  "rgba_sha256": "4a8d88717c313c0d86127a228b61bf0b58c17ac43f3a27e27a69b006d043f2b6",
+  "source_png_sha256": "4f7349d9558de0992ee3f80e4e63b8107e955ae47f583736ddb4a9ceeb935449",
+  "runtime_webp_sha256": "928c938ebc6c17694ad9cce5e95a5caf342b4122ff17e29f32a1cd40f5550a7c",
+  "errors": []
+}

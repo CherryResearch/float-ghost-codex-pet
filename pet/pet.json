@@ -2,5 +2,6 @@
   "id": "float-ghost",
   "displayName": "Float Ghost",
   "description": "A calm ghost-wisp Codex pet with moonlit mist and mint-green eyes.",
+  "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp"
 }

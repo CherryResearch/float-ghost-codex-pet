@@ -1,0 +1,10 @@
+{
+  "id": "float-ghost",
+  "display_name": "Float Ghost",
+  "atlas_version": 2,
+  "source": "source/spritesheet.png",
+  "runtime": "pet/spritesheet.webp",
+  "rgba_sha256": "4a8d88717c313c0d86127a228b61bf0b58c17ac43f3a27e27a69b006d043f2b6",
+  "encoding": "Lossless WebP; decoded RGBA pixels are identical to the source PNG",
+  "compatibility": "Requires an 8-column, 11-row v2 atlas consumer; older local clients are unverified"
+}
